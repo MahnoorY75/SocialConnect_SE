@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.fixposition2
+{
+    margin-top: 10vh; /* Space for the topbar */
+    width: 82vw;  /* Adjusted width if necessary */
+    height: auto;  /* Adjust height if necessary */
+    position: relative; /* Ensure it respects the margin settings */
+    z-index: 100; /* Lower than sidebar and topbar */
+    display: flex;
+    flex-direction: column;
+    
+}
+.topdesc {
+    width: 74vw;
+    height: 60vh;
+    background: url('../../Images/friend.png');
+    margin: 1% auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Horizontal offset, vertical offset, blur radius, and color */
+}
+
+.heading2 {
+    font-size: 22px;
+    position: relative; /* Essential for positioning the pseudo-element */
+    padding-bottom: 9px;
+}
+
+.heading2:after {
+    content: ''; /* Required for the pseudo-element to display */
+    display: block;
+    width: 90px; /* Width of the 'border' */
+    height: 3px; /* Thickness of the 'border' */
+    background: #8f516a; /* Color of the 'border' */
+    position: absolute;
+    left: 0; /* Align to the left of the heading. Adjust if needed */
+    bottom: 0; /* Position at the bottom of the heading */
+}
+.secten {
+    width: 100%;
+    margin-left: 7.2%;
+    height: 22vh;
+    display: flex;
+    gap: 40px;  /* Adjust the value as needed to provide adequate space */
+    margin-bottom: 3.4%;
+}
+
+.framee
+{
+    width: 42%;
+    height:100%;
+    display: flex;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    transition : box-shadow 0.3s ease;
+    transform: translateZ(0);
+    will-change: transform;
+}
+
+.framee:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Adjust the shadow for hover effect */
+}
+
+
+.f1
+{
+    width: 30%;
+    height: 100%;
+}
+.f2
+{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.info
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.buttons
+{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.name2
+{
+font-size: 21px;
+font-weight: 500;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+margin-top: 3%;
+margin-bottom: 0;
+text-wrap: nowrap;
+
+}
+
+.number2
+{
+font-size: 17px;
+margin-top: 2%;
+margin-bottom: 12%;
+}
+
+.picon
+{
+    font-size: 27px;
+    margin-right: 8px;
+    color: #02455f;
+}
+
+.bbtn
+{
+    padding: 10px 18px;
+    background-color: #f3dad4;
+    border: 2px solid #f88c70;
+    border-radius: 5px;
+    font-weight: 400;
+}
+.bbtn:hover
+{
+    background-color: #f88c70;
+    color: white;
+}
+
+.bbtn2
+{
+    padding: 10px 18px;
+    background-color: rgb(179, 66, 66);
+    border: 2px solid rgb(100, 9, 9);
+    border-radius: 5px;
+    font-weight: 400;
+    color: white;
+}
+.bbtn2:hover
+{
+    background-color: rgb(100, 9, 9);
+    color: white;
+}

@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.topbar {
+    background-color: #ffe6d8;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between; /* Align items to the start and end of the flex container */
+    align-items: center;
+    margin-bottom: 0;
+  
+  
+  }
+  
+  .toplist {
+    display: flex;
+  }
+  
+  .txt {
+    margin: 0 25%;
+    white-space: nowrap; /* Prevent text from wrapping onto the next line */
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+  }
+  /* Existing CSS code */
+.notification-icon {
+  margin-right: 15px; /* Adjust margin to separate the notification icon from the user logo */
+  margin-left: 100px;
+  color: #000; /* Set color for the notification icon */
+  font-size: 32px;
+}
+
+  
+  .txtmain
+  {
+    white-space: nowrap;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    margin-right: 3%;
+  }
+  
+  .userimage {
+    border-radius: 50px;
+    margin-right: 5%;
+  }
+  
+  .sidebar {
+    width: 18vw;
+    height: 90vh;
+    height: calc(90vh - 10vh);
+  }
+  
+  .sidebar {
+    background-color: #f0f0f0;
+    width: 18vw;
+    height: 90vh;
+    position: fixed;
+    left: 0;
+  }
+
+  .sidebar a 
+  {
+    text-decoration: none;
+  }
+  
+  .sidebar-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    margin-left: 5%;
+  }
+  
+/* Existing CSS code */
+.sidebar-list li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: #383838;
+  cursor: pointer;
+  padding: 8% 5%;
+}
+
+.sidebar-list li:hover:not(.selected) {
+    background-color: #c5c5c5;
+  }
+  
+
+.selected {
+  background-color:#B99DA8;
+  border-left: 5px solid #b16985;
+}
+
+
+
+.sidebar-icon {
+  margin-right: 10px;
+}
+
+.sidebar-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+  
+  /* Existing CSS code */
+.search-bar {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+}
+
+.search-icon {
+  margin-right: 10px;
+}
+
+.search-input {
+  width: 250px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  padding: 3px 15px;
+  font-size: 14px;
+  color: #333;
+}
+
+.search-input::placeholder {
+  color: #999;
+}
+

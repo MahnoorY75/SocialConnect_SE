@@ -1,0 +1,10 @@
+
+
+.fixposition
+{
+    margin-top: 10vh; /* Space for the topbar */
+    width: 82vw;  /* Adjusted width if necessary */
+    height: 90vh;  /* Adjust height if necessary */
+    position: relative; /* Ensure it respects the margin settings */
+    z-index: 100; /* Lower than sidebar and topbar */
+}

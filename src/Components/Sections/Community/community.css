@@ -1,0 +1,163 @@
+.fixposition3
+{
+    margin-top: 10vh; /* Space for the topbar */
+    width: 82vw;  /* Adjusted width if necessary */
+    height: 90vh;  /* Adjust height if necessary */
+    position: relative; /* Ensure it respects the margin settings */
+    z-index: 100; /* Lower than sidebar and topbar */
+}
+
+
+.coverr
+{
+    width: 81.7vw;
+    height: 63vh;
+    background: url('../../Images/head.png');
+    margin-top: 0;
+    padding-top: 0;
+}
+.heading3 {
+    font-size: 22px;
+    position: relative; /* Essential for positioning the pseudo-element */
+    padding-bottom: 9px;
+    font-weight: 500;
+}
+
+.heading3:after {
+    content: ''; /* Required for the pseudo-element to display */
+    display: block;
+    width: 90px; /* Width of the 'border' */
+    height: 3px; /* Thickness of the 'border' */
+    background: #8f516a; /* Color of the 'border' */
+    position: absolute;
+    left: 0; /* Align to the left of the heading. Adjust if needed */
+    bottom: 0; /* Position at the bottom of the heading */
+}
+
+.secten2
+{
+    width: 75%;
+    margin-left: 7.2%;
+    height: 49vh;
+    display: flex;
+    gap: 40px;  /* Adjust the value as needed to provide adequate space */
+    margin-bottom: 3.4%;
+}
+
+.cmframe
+{
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    transition : box-shadow 0.3s ease;
+    transform: translateZ(0);
+    will-change: transform;
+}
+
+.cmframe:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Adjust the shadow for hover effect */
+}
+
+.grname
+{
+font-size: 19px;
+margin-bottom: 5px;
+margin-top: 10px;
+}
+.grmembers
+{
+font-size: 16px;
+margin-top: 0;
+}
+
+.bbtn3
+{
+    padding: 12px 50px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    background-color: #b99da8;
+    border: 2px solid #58494f;
+    border-radius: 20px;
+    font-weight: 400;
+}
+.bbtn3:hover
+{
+    background-color: #58494f;
+    color: white;
+}
+.joined {
+    background-color: #58494f;
+    color: white;
+  }
+  
+
+
+.reportButton {
+    padding: 7px 7px; /* Adjust padding as needed */
+    border-radius: 20px; /* Maintain consistency with other button styles */
+    margin-top: 5px; /* Remove top margin */
+    margin-bottom: 0;
+    margin-left: 10px; /* Add left margin to separate from the Join Group button */
+    border-color: rgb(70, 70, 70);
+}
+
+.reportIcon {
+    font-size: 20px;
+    margin-top: 0; /* Remove top margin */
+    margin-bottom: 0;
+    color: rgb(70, 70, 70);
+}
+
+.reported {
+    border-color: red; /* Change border color to red when reported */
+}
+
+.reported .reportIcon {
+    color: red; /* Change icon color to red when reported */
+}
+
+
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  form > div {
+    margin-bottom: 10px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  

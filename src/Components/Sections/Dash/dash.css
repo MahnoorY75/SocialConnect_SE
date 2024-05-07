@@ -1,0 +1,253 @@
+
+.fixposition
+{
+    padding-top: 10px;  
+    margin-top: 10vh; /* Space for the topbar */
+    width: 82vw;  /* Adjusted width if necessary */
+    height: 90vh;  /* Adjust height if necessary */
+    position: relative; /* Ensure it respects the margin settings */
+    z-index: 100; /* Lower than sidebar and topbar */
+    display: flex;
+}
+.boxes
+{
+    height: 78vh;
+    width: 50vw;
+    margin-top: 3%;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+}
+.dash-box1
+{
+   width: 100%;
+    height: 86%;
+  
+    display: flex;
+}
+.communitytext
+{
+    font-size: 23px;
+    font-weight: 470;
+    margin-bottom: 0;
+    margin-left: 10px;
+    color: #2b2024;
+}
+.dash-box3
+{
+    width: 100%;
+    height: 70%;
+    margin-bottom: 0;
+    margin-top: 10px;
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.dash-sub {
+    position: relative; /* Set position to relative */
+    width: 33.33%;
+    height: 100%;
+    margin: 0 1%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    transform: perspective(1000px) rotateY(0deg);
+    transition: transform 0.3s ease-in-out;
+    backface-visibility: hidden;
+    display: flex; 
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+
+.arrow-right {
+    color: rgb(49, 49, 49);
+    margin-top: 3px;
+    position: absolute; /* Set position to absolute */
+    right: 0; /* Position at the right edge */
+    margin-right: 13px; /* Adjust margin for spacing */
+}
+
+
+.dash-sub:hover {
+    transform: perspective(1000px) rotateY(12deg); /* Add 3D effect */
+}
+
+.text
+{
+    margin-left: 6px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.text1
+{
+    color: #f77b5b;
+}
+
+.text2
+{
+    color: #C44F6E;
+}
+
+.text3
+{
+    color: #9e5c76;
+}
+
+.value
+{
+    margin-top: 9%;
+    text-align: center;
+    font-size: 33px;
+    color: rgb(44, 44, 44);
+    font-weight: 540;
+}
+
+.icon {
+    font-size: 58px;
+    align-self: center;
+   color: rgb(58, 58, 58);
+  
+}
+
+.dash-box2
+{
+    width: 23vw;
+    height: 78vh;
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+}
+.friendstext {
+    font-size: 23px;
+    margin-top: 5%;
+    display: flex; /* Add flex display */
+    padding-left: 7%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border-bottom: 2px solid rgb(194, 194, 194);
+    height: 55%;
+    width: 93%;
+    color: #58464c;
+    font-weight: 430;
+    margin-bottom: 0;
+  }
+  
+  .friends-icon {
+    font-size: 29px;
+    margin-right: 10px; /* Add margin for spacing between icon and text */
+  }
+  
+.friends
+{
+    display: flex;
+}
+
+.friendlist
+{
+    width: 96%;
+    height: 14%;
+    border-bottom: 1.5px solid  rgb(194, 194, 194);
+    display: flex;
+    padding-left: 4%;
+    margin-top: 9px;
+}
+
+.frame
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.userimg
+{
+    margin-left: 12px;
+}
+.name
+{
+    font-size: 18px;
+    margin-bottom: 0;
+    font-weight: 500;
+    margin-top: 7px;
+}
+.followers
+{
+    margin-top: 0;
+    font-size: 14px;
+}
+
+.number {
+    font-size: 27px;
+    margin-left: auto; /* Align to the right */
+    margin-bottom: 0;
+    margin-top: 5px;
+    color: #f77b5b;
+    margin-right: 28px;
+}
+
+.scrollable-content {
+    overflow-y: auto; /* Add vertical scroll */
+    height: 100%; /* Make it take full height of the dash-box2 */
+  }
+  
+  .scrollable-content::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+  }
+ 
+  .frame2 {
+    height: 100%;
+    width: 90%;
+    border-right: 1.5px solid rgb(194, 194, 194);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center content vertically */
+    margin: 9px 18px; /* Set equal margins on both sides */
+    padding-right: 35px;
+  }
+  
+  .cmimg
+  {
+
+  }
+  
+  .communitytxt{
+    font-size: 18px;
+    margin-bottom: 0;
+    font-weight: 500;
+    margin-top: 0px;
+  }
+
+  .btn-primary
+  {
+padding: 5px 20px;
+border-radius: 5px;
+border: 2px solid #00658d;
+background-color: #00658d;
+margin-top: 7px;
+margin-bottom: 15px;
+color: white;
+  }
+
+  .btn-join {
+    background-color: rgb(110, 110, 110);
+    border: 2px solid rgb(68, 68, 68);
+  }
+  .scroll {
+    padding-left: 20px;
+    width: 100%;
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    white-space: nowrap; /* Prevent wrapping of content */
+  }
+  .scroll::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+  }

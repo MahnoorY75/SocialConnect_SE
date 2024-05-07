@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.nav
+{
+  width: 100vw;
+  height: 12vh;
+  background-color: #fdf9f8;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navtext
+{
+  margin-left: 15%;
+  display: flex;
+}
+.logo
+{
+  margin-left: 23%;
+}
+.text
+{
+  margin: 0 13%;
+  font-family: "Encode Sans Expanded", sans-serif;
+  color: rgb(31, 31, 31);
+  padding: 1% 4%;
+}
+.home
+{
+  border-bottom: 2px solid #f88c70;
+}
+.header
+{
+  width: 100vw;
+  height: 82vh;
+display: flex;
+}
+
+.sidebox
+{
+  height: 100%;
+  width: 50%;
+ background-color: #fdf9f8;
+}
+
+.sidepic
+{
+  height: 100%;
+  width: 50%;
+  background-image: url('../Images/sidepic.png');
+  
+}
+.head{
+  font-size: 53px;
+  margin-left: 13%;
+  margin-top: 10%;
+
+}
+.body
+{
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  margin-left: 13%;
+  margin-top: 2%;
+  margin-right: 3%;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+.diff
+{
+  color: #f88c70;
+}
+.btn-main
+{
+  padding: 18px 35px;
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-size: 16px;
+  border-radius: 50px;
+  border: 2px solid #f88c70;
+  background-color: #f88c70;
+  color: #fdf9f8;
+  margin-top: 2%;
+  margin-left: 13%;
+}
+.btn-main:hover
+{
+  background-color: #fdf9f8;
+  color:rgb(31, 31, 31); 
+  border: 2px solid #f88c70;
+}
+.btn-second
+{
+  padding: 18px 35px;
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-size: 16px;
+  border-radius: 50px;
+  border: none;
+  background-color: #fdf9f8;
+  color: rgb(31, 31, 31);
+  margin-top: 2%;
+  border: 2px solid #f88c70;
+  margin-left: 2.5%;
+}
+.btn-second:hover
+{
+  background-color: #f88c70;
+  color: #fdf9f8;
+}
+
+.strip
+{
+  width: 100vw;
+  height: 5vh;
+  background-color: #f88c70;
+  margin-top: 16%;
+}
+.featurebox {
+  width: 60vw;
+  height: 70vh;
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.3); /* Darker and more visible shadow */
+  border-radius: 10px; /* Add border radius for a softer look */
+  margin: auto;
+  margin-top: -120px;
+  margin-bottom: 2%;
+  position: relative;
+  z-index: 1; /* Bring this element to the front */
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+.boxxtext
+{
+  color: rgb(43, 43, 43);
+  margin: 1% 20%;
+  padding-top: 5%;
+  text-align: center;
+}
+.banner
+{
+  width: 100%;
+  height: 66%;
+  background-image: url('../Images/banner.png');
+  margin-top: 2%;
+}
+
+.section
+{
+  margin-top: 7%;
+  width: 100vw;
+  height: 120vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.show
+{
+  margin-top: 2%;
+}
+.dis
+{
+ 
+  color: rgb(43, 43, 43);
+
+}
+.fetchbox
+{
+  width: 80%;
+  height: 120%;
+  display: flex;
+}
+.b {
+  width: 33.3333333333%;
+  height: 63%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+  margin: 30px 5px;
+}
+
+.imagesec1
+{
+  width: 100%;
+  height: 75%;
+  background: url('../Images/box1.png');
+}
+.textsec
+{
+  width: 100%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imagesec2
+{
+  width: 100%;
+  height: 75%;
+  background: url('../Images/box2.png');
+}
+.imagesec3
+{
+  width: 100%;
+  height: 75%;
+  background: url('../Images/box3.png');
+}
+
+h2{
+  color: rgb(36, 36, 36);
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+.diff2
+{
+  color: #f88c70;
+}
+
+.btn{
+  text-decoration: none;
+  color: #f88c70;
+  font-size: 18px;
+  border: 2px solid #f88c70;
+  padding: 5px 23px;
+  border-radius: 50px;
+  margin-left: 5%;
+}
+.btn:hover
+{
+  background-color: #f88c70;
+  color: white;
+}
+
+.footer
+{
+  width: 100vw;
+  height: 30vh;
+  background-color: rgb(51, 51, 51);
+}
+.footertext
+{
+  color: white;
+  font-size: 20px;
+  margin: 0% 10%;
+  padding-top: 1.8%;
+}

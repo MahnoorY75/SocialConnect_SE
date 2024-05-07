@@ -1,0 +1,108 @@
+.fixpositionblog
+{
+    margin-top: 10vh; /* Space for the topbar */
+    width: 82vw;  /* Adjusted width if necessary */
+    height: 160vh;  /* Adjust height if necessary */
+    position: relative; /* Ensure it respects the margin settings */
+    z-index: 100; /* Lower than sidebar and topbar */
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.topbarpic2
+{
+    width: 100%;
+height: 16%;
+    background: url('../../Images//survmain.png');
+}
+
+.txtsurv2
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 2%;
+    margin-bottom: 0;
+}
+.txtsurv2:after {
+    content: ''; /* Required for the pseudo-element to display */
+    display: block;
+    width: 90px; /* Width of the 'border' */
+    height: 3px; /* Thickness of the 'border' */
+    background: #8f516a; /* Color of the 'border' */
+    position: absolute;
+    left: 3; /* Align to the left of the heading. Adjust if needed */
+   margin-top: 0.4%;
+    
+}
+
+.blogs
+{
+    width: 90%;
+    height: 64%;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.blog
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    transform: perspective(1000px) rotateY(0deg);
+    transition: transform 0.3s ease-in-out;
+    backface-visibility: hidden;
+}
+.blog:hover{
+    
+    transform: perspective(1000px) rotateY(4deg); /* Add 3D effect */
+}
+.blogimage
+{
+width: 100%;
+height: 70%;
+background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; 
+}
+.blogtext
+{
+    width: 100%;
+    height: 30%;
+
+}
+
+.btext{
+    font-size: 16px;
+    line-height: 22px;
+    padding: 9px 18px;
+    margin: 0;
+    position: relative; /* Establishes a new positioning context for the .linkicon */
+  padding-right: 40px;
+}
+.linkicon {
+    position: absolute;
+    bottom: 10px; /* Distance from the bottom of .blogtext */
+    right: 50px; /* Distance from the right of .blogtext */
+    font-size: 30px; /* Icon size */
+    color: #5e3344; /* Icon color */
+  }
+  
+
+  
+  .linkicon svg {
+    color: #5e3344;/* This ensures the icon inherits the color from .linkicon */
+  }
+  
+  .bloglink {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color */
+    display: inline-block; /* Make it behave like a block element */
+  }
+  
